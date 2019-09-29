@@ -6,3 +6,7 @@ Mock.mock('http://localhost:8080/user', {
   'email': '@email', //随机生成邮箱
   'age|1-10': 5, //年龄在1~10岁之间
 })
+
+Mock.mock('http://localhost:8001/login', {
+  'token': '332fr3e3rfsdfd'
+})
